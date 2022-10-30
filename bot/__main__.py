@@ -311,7 +311,7 @@ def log(update, context):
 
 
 help_string = '''
-<b><a href='https://github.com/codewithweeb/mirror-with-weeb'>WeebZone</a></b> - The Ultimate Telegram MIrror-Leech Bot to Upload Your File & Link in Google Drive & Telegram
+<b><a href='https://t.me/HELL_GaM'>💫</a></b> - The Ultimate Telegram MIrror-Leech Bot to Upload Your File & Link in Google Drive & Telegram
 Choose a help category:
 '''
 
@@ -467,7 +467,7 @@ if SET_BOT_COMMANDS:
         (f'{BotCommands.PreNameCommand}','Set Prename for Leech Files'),
         (f'{BotCommands.CaptionCommand}','Set Caption for Leech Files'),
         (f'{BotCommands.UserLogCommand}','Set Dump Channel for Leech Files'),
-        (f'{BotCommands.ScrapeCommand}','Scrape Links from Website'),
+        (f'{BotCommands.ScrapeCommand}','Scrape Magnet from Website'),
         (f'{BotCommands.CountCommand}','Count file/folder of Drive'),
         (f'{BotCommands.DeleteCommand}','Delete file/folder from Drive'),
         (f'{BotCommands.CancelMirror}','Cancel a task'),
