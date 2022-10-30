@@ -554,7 +554,7 @@ try:
     EQUAL_SPLITS = EQUAL_SPLITS.lower() == 'true'
 except:
     EQUAL_SPLITS = False
-try:
+ try:
      CUSTOM_FILENAME = getConfig('CUSTOM_FILENAME')
      if len(CUSTOM_FILENAME) == 0:
          raise KeyError
