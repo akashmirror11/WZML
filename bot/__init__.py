@@ -554,12 +554,12 @@ try:
     EQUAL_SPLITS = EQUAL_SPLITS.lower() == 'true'
 except:
     EQUAL_SPLITS = False
-# try:
-#     CUSTOM_FILENAME = getConfig('CUSTOM_FILENAME')
-#     if len(CUSTOM_FILENAME) == 0:
-#         raise KeyError
-# except:
-#     CUSTOM_FILENAME = None
+ try:
+     CUSTOM_FILENAME = getConfig('CUSTOM_FILENAME')
+     if len(CUSTOM_FILENAME) == 0:
+         raise KeyError
+ except:
+     CUSTOM_FILENAME = None
 try:
     MIRROR_ENABLED = getConfig("MIRROR_ENABLED")
     MIRROR_ENABLED = MIRROR_ENABLED.lower() == "true"
@@ -706,8 +706,8 @@ try:
     if len(START_BTN1_NAME) == 0 or len(START_BTN1_URL) == 0:
         raise KeyError
 except:
-    START_BTN1_NAME = 'Master'
-    START_BTN1_URL = 'https://t.me/krn_adhikari'
+    START_BTN1_NAME = 'Owner'
+    START_BTN1_URL = 'https://t.me/HELL_GaM'
 
 try:
     START_BTN2_NAME = getConfig('START_BTN2_NAME')
@@ -715,14 +715,14 @@ try:
     if len(START_BTN2_NAME) == 0 or len(START_BTN2_URL) == 0:
         raise KeyError
 except:
-    START_BTN2_NAME = 'Support Group'
-    START_BTN2_URL = 'https://t.me/WeebZone_updates'
+    START_BTN2_NAME = 'Mirror Group'
+    START_BTN2_URL = 'https://t.me/HELL_GaM'
 try:
     CREDIT_NAME = getConfig('CREDIT_NAME')
     if len(CREDIT_NAME) == 0:
-        CREDIT_NAME = 'WeebZone'
+        CREDIT_NAME = '❤'
 except KeyError:
-    CREDIT_NAME = 'WeebZone'
+    CREDIT_NAME = '❤'
 try:
     NAME_FONT = getConfig('NAME_FONT')
     if len(NAME_FONT) == 0:
@@ -753,7 +753,7 @@ try:
         raise KeyError
 except KeyError:
     log_info("CHANNEL_USERNAME not provided! Using default @WeebZone_updates")
-    CHANNEL_USERNAME = "WeebZone_updates"
+    CHANNEL_USERNAME = "❤"
 try:
     FSUB_CHANNEL_ID = getConfig("FSUB_CHANNEL_ID")
     if len(FSUB_CHANNEL_ID) == 0:
